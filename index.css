@@ -35,6 +35,15 @@ p {
 .button-sedan {
   color: hsl(31, 77%, 52%);
   background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 22px;
+  padding: 12px 32px;
+}
+.button-sedan:hover {
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
 }
 
 .card-2 {
@@ -44,6 +53,10 @@ p {
 .button-suv {
   color: hsl(184, 100%, 22%);
   background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 22px;
+  padding: 12px 32px;
 }
 
 .card-3 {
@@ -54,6 +67,10 @@ p {
 .button-luxury {
   color: hsl(179, 100%, 13%);
   background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 22px;
+  padding: 12px 32px;
 }
 
 @media (max-width: 375px) {
